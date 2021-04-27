@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>存储引擎 | Love Java</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/avatar.png">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.e4d8b86b.css" as="style"><link rel="preload" href="/assets/js/app.1b51ac94.js" as="script"><link rel="preload" href="/assets/js/2.d957c138.js" as="script"><link rel="preload" href="/assets/js/12.7b0b8d85.js" as="script"><link rel="prefetch" href="/assets/js/10.be9ce497.js"><link rel="prefetch" href="/assets/js/11.324e0d83.js"><link rel="prefetch" href="/assets/js/13.984d4486.js"><link rel="prefetch" href="/assets/js/14.5c374527.js"><link rel="prefetch" href="/assets/js/15.dc559dfa.js"><link rel="prefetch" href="/assets/js/16.354b51ee.js"><link rel="prefetch" href="/assets/js/17.e9266f5d.js"><link rel="prefetch" href="/assets/js/18.df182d11.js"><link rel="prefetch" href="/assets/js/19.6cb800a4.js"><link rel="prefetch" href="/assets/js/20.1dba5cd8.js"><link rel="prefetch" href="/assets/js/21.14847575.js"><link rel="prefetch" href="/assets/js/22.079a7f44.js"><link rel="prefetch" href="/assets/js/23.a7fe2a2d.js"><link rel="prefetch" href="/assets/js/24.33e92505.js"><link rel="prefetch" href="/assets/js/25.015ebc21.js"><link rel="prefetch" href="/assets/js/26.4bc2c3d9.js"><link rel="prefetch" href="/assets/js/27.0607af76.js"><link rel="prefetch" href="/assets/js/28.b94ebdf6.js"><link rel="prefetch" href="/assets/js/29.5a807f05.js"><link rel="prefetch" href="/assets/js/3.bad527cb.js"><link rel="prefetch" href="/assets/js/30.6f19feb6.js"><link rel="prefetch" href="/assets/js/31.87292513.js"><link rel="prefetch" href="/assets/js/32.04c731f7.js"><link rel="prefetch" href="/assets/js/33.7f850bf0.js"><link rel="prefetch" href="/assets/js/34.a3583a39.js"><link rel="prefetch" href="/assets/js/4.bc71b139.js"><link rel="prefetch" href="/assets/js/5.1cfa2344.js"><link rel="prefetch" href="/assets/js/6.3efaf65f.js"><link rel="prefetch" href="/assets/js/7.0953f092.js"><link rel="prefetch" href="/assets/js/8.93819524.js"><link rel="prefetch" href="/assets/js/9.14fad383.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e4d8b86b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Love Java</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java基础" class="dropdown-title"><span class="title">Java基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="Java基础" class="mobile-dropdown-title"><span class="title">Java基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/java/basic/java-basic-oop.html" class="nav-link">
+  Java基础
+</a></li><li class="dropdown-item"><!----> <a href="/md/java/basic/java-collection.html" class="nav-link">
+  Java集合
+</a></li><li class="dropdown-item"><!----> <a href="/md/java/basic/reflect-annotation.html" class="nav-link">
+  反射与注解
+</a></li></ul></div></div><div class="nav-item"><a href="/md/java/web/" class="nav-link">
+  Web基础
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Spring全家桶" class="dropdown-title"><span class="title">Spring全家桶</span> <span class="arrow down"></span></button> <button type="button" aria-label="Spring全家桶" class="mobile-dropdown-title"><span class="title">Spring全家桶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Spring5
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/md/spring/spring-basic.html" class="nav-link">
+  Spring基础
+</a></li><li class="dropdown-subitem"><a href="/md/spring/spring-ioc.html" class="nav-link">
+  手写ioc容器
+</a></li></ul></li><li class="dropdown-item"><!----> <a href="/md/spring/springmvc.html" class="nav-link">
+  SpringMVC
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          SQL
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/md/db/sql-basic.html" class="nav-link">
+  sql基础语法
+</a></li><li class="dropdown-subitem"><a href="/md/db/sql-exercise.html" class="nav-link">
+  sql语句练习
+</a></li><li class="dropdown-subitem"><a href="/md/db/sql-advanced.html" class="nav-link">
+  sql进阶挑战
+</a></li><li class="dropdown-subitem"><a href="/md/db/sql-optimization.html" class="nav-link">
+  sql语句优化
+</a></li></ul></li><li class="dropdown-item"><h4>
+          MySQL
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/md/db/mysql-typeof.html" class="nav-link">
+  数据类型
+</a></li><li class="dropdown-subitem"><a href="/md/db/mysql-engine.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  存储引擎
+</a></li><li class="dropdown-subitem"><a href="/md/db/mysql-index.html" class="nav-link">
+  索引
+</a></li><li class="dropdown-subitem"><a href="/md/db/execute-process.html" class="nav-link">
+  SQL执行流程
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据结构和算法" class="dropdown-title"><span class="title">数据结构和算法</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据结构和算法" class="mobile-dropdown-title"><span class="title">数据结构和算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/data-structure/basic-data-structure.html" class="nav-link">
+  常见数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/md/algorithm/alg-sort.html" class="nav-link">
+  常见排序算法
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="设计模式" class="dropdown-title"><span class="title">设计模式</span> <span class="arrow down"></span></button> <button type="button" aria-label="设计模式" class="mobile-dropdown-title"><span class="title">设计模式</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/design-pattern/singleton-pattern.html" class="nav-link">
+  单例模式
+</a></li><li class="dropdown-item"><!----> <a href="/md/design-pattern/factory-pattern.html" class="nav-link">
+  工厂模式
+</a></li><li class="dropdown-item"><!----> <a href="/md/design-pattern/prototype-pattern.html" class="nav-link">
+  原型模式
+</a></li><li class="dropdown-item"><!----> <a href="/md/design-pattern/proxy-pattern.html" class="nav-link">
+  代理模式
+</a></li><li class="dropdown-item"><!----> <a href="/md/design-pattern/observer-pattern.html" class="nav-link">
+  观察者模式
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="开发文档" class="dropdown-title"><span class="title">开发文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="开发文档" class="mobile-dropdown-title"><span class="title">开发文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/dev-doc/community.html" class="nav-link">
+  社区论坛
+</a></li><li class="dropdown-item"><!----> <a href="/md/dev-doc/bms.html" class="nav-link">
+  建材系统
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试资源" class="dropdown-title"><span class="title">面试资源</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试资源" class="mobile-dropdown-title"><span class="title">面试资源</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/interview/hangzhou-endpoint.html" class="nav-link">
+  杭州端点笔试
+</a></li><li class="dropdown-item"><!----> <a href="/md/interview/byte-dance.html" class="nav-link">
+  字节跳动笔试
+</a></li><li class="dropdown-item"><!----> <a href="/md/interview/10k-interview.html" class="nav-link">
+  10k面试题
+</a></li></ul></div></div><div class="nav-item"><a href="/md/source-code/" class="nav-link">
+  源码阅读
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Java基础" class="dropdown-title"><span class="title">Java基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="Java基础" class="mobile-dropdown-title"><span class="title">Java基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/java/basic/java-basic-oop.html" class="nav-link">
+  Java基础
+</a></li><li class="dropdown-item"><!----> <a href="/md/java/basic/java-collection.html" class="nav-link">
+  Java集合
+</a></li><li class="dropdown-item"><!----> <a href="/md/java/basic/reflect-annotation.html" class="nav-link">
+  反射与注解
+</a></li></ul></div></div><div class="nav-item"><a href="/md/java/web/" class="nav-link">
+  Web基础
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Spring全家桶" class="dropdown-title"><span class="title">Spring全家桶</span> <span class="arrow down"></span></button> <button type="button" aria-label="Spring全家桶" class="mobile-dropdown-title"><span class="title">Spring全家桶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Spring5
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/md/spring/spring-basic.html" class="nav-link">
+  Spring基础
+</a></li><li class="dropdown-subitem"><a href="/md/spring/spring-ioc.html" class="nav-link">
+  手写ioc容器
+</a></li></ul></li><li class="dropdown-item"><!----> <a href="/md/spring/springmvc.html" class="nav-link">
+  SpringMVC
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          SQL
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/md/db/sql-basic.html" class="nav-link">
+  sql基础语法
+</a></li><li class="dropdown-subitem"><a href="/md/db/sql-exercise.html" class="nav-link">
+  sql语句练习
+</a></li><li class="dropdown-subitem"><a href="/md/db/sql-advanced.html" class="nav-link">
+  sql进阶挑战
+</a></li><li class="dropdown-subitem"><a href="/md/db/sql-optimization.html" class="nav-link">
+  sql语句优化
+</a></li></ul></li><li class="dropdown-item"><h4>
+          MySQL
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/md/db/mysql-typeof.html" class="nav-link">
+  数据类型
+</a></li><li class="dropdown-subitem"><a href="/md/db/mysql-engine.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  存储引擎
+</a></li><li class="dropdown-subitem"><a href="/md/db/mysql-index.html" class="nav-link">
+  索引
+</a></li><li class="dropdown-subitem"><a href="/md/db/execute-process.html" class="nav-link">
+  SQL执行流程
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据结构和算法" class="dropdown-title"><span class="title">数据结构和算法</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据结构和算法" class="mobile-dropdown-title"><span class="title">数据结构和算法</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/data-structure/basic-data-structure.html" class="nav-link">
+  常见数据结构
+</a></li><li class="dropdown-item"><!----> <a href="/md/algorithm/alg-sort.html" class="nav-link">
+  常见排序算法
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="设计模式" class="dropdown-title"><span class="title">设计模式</span> <span class="arrow down"></span></button> <button type="button" aria-label="设计模式" class="mobile-dropdown-title"><span class="title">设计模式</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/design-pattern/singleton-pattern.html" class="nav-link">
+  单例模式
+</a></li><li class="dropdown-item"><!----> <a href="/md/design-pattern/factory-pattern.html" class="nav-link">
+  工厂模式
+</a></li><li class="dropdown-item"><!----> <a href="/md/design-pattern/prototype-pattern.html" class="nav-link">
+  原型模式
+</a></li><li class="dropdown-item"><!----> <a href="/md/design-pattern/proxy-pattern.html" class="nav-link">
+  代理模式
+</a></li><li class="dropdown-item"><!----> <a href="/md/design-pattern/observer-pattern.html" class="nav-link">
+  观察者模式
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="开发文档" class="dropdown-title"><span class="title">开发文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="开发文档" class="mobile-dropdown-title"><span class="title">开发文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/dev-doc/community.html" class="nav-link">
+  社区论坛
+</a></li><li class="dropdown-item"><!----> <a href="/md/dev-doc/bms.html" class="nav-link">
+  建材系统
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试资源" class="dropdown-title"><span class="title">面试资源</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试资源" class="mobile-dropdown-title"><span class="title">面试资源</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/md/interview/hangzhou-endpoint.html" class="nav-link">
+  杭州端点笔试
+</a></li><li class="dropdown-item"><!----> <a href="/md/interview/byte-dance.html" class="nav-link">
+  字节跳动笔试
+</a></li><li class="dropdown-item"><!----> <a href="/md/interview/10k-interview.html" class="nav-link">
+  10k面试题
+</a></li></ul></div></div><div class="nav-item"><a href="/md/source-code/" class="nav-link">
+  源码阅读
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>存储引擎</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/md/db/mysql-engine.html#存储引擎" class="sidebar-link">存储引擎</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="存储引擎"><a href="#存储引擎" class="header-anchor">#</a> 存储引擎</h2></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.1b51ac94.js" defer></script><script src="/assets/js/2.d957c138.js" defer></script><script src="/assets/js/12.7b0b8d85.js" defer></script>
+  </body>
+</html>
